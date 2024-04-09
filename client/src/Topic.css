@@ -1,0 +1,18 @@
+.topic-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.topic{
+    color:orange;
+}
+@media screen and  (max-width: 600px){
+.topic{
+    align-items: center;
+}
+.topic:hover{
+    transition-duration: 3 sec;
+    color: blue;
+}
+}

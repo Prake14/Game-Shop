@@ -1,0 +1,148 @@
+.singleboxs {
+    width: 800px;
+    margin-left: 120px;
+    padding-left: 250px;
+    border-radius: 9px;
+}
+
+.ti {
+    font-size: larger;
+    padding-top: 40px;
+    margin-left: -150px;
+}
+
+.tisub {
+    font-size: larger;
+    padding-left: 110px;
+    margin-top: -50px;
+    margin-left: -120px;
+}
+
+.platform {
+    font-size: larger;
+    margin-left: -150px;
+}
+
+.platsub {
+    padding-left: 140px;
+    font-size: larger;
+    margin-top: -50px;
+}
+
+.genre {
+    font-size: larger;
+    margin-left: -150px;
+}
+
+.genree {
+    padding-left: 140px;
+    font-size: larger;
+    margin-top: -50px;
+}
+
+.imgs {
+    transition: transform 0.3s ease;
+    padding-left: 8px;
+    margin-top: -120px;
+    margin-left: 310px;
+    border-radius: 8px;
+}
+
+.imgs:hover {
+    transform: scale(1.1);
+}
+
+.pub {
+    font-size: larger;
+    margin-left: -150px;
+    margin-top: -120px;
+}
+
+.pubb {
+    padding-left: 140px;
+    font-size: larger;
+    margin-top: -150px;
+    margin-top: -54px;
+}
+
+.dev {
+    margin-left: -150px;
+    font-size: larger;
+}
+
+.devs {
+    padding-left: 140px;
+    margin-top: -50px;
+    font-size: larger;
+}
+
+.gameurl {
+    padding-left: 460px;
+    padding-bottom: 90px;
+    margin-left: -612px;
+    margin-top: -10px;
+    font-size: larger;
+}
+
+.urlss {
+    margin-left: -30px;
+    margin-top: -137px;
+    padding-left: 20px;
+}
+.reled{
+    margin-left: -150px;
+    font-size: larger;
+}
+.releds{
+    padding-left: 139px;
+    margin-top:-50px;
+}
+@media screen and (max-width:600px) {
+    .singleboxs{
+        width: 300px;
+        height: 720px;
+        margin-left: 20%;
+        translate: -5% 0 0;
+    }
+    .ti{
+        margin-left: -210px;
+    }
+    .tisub{
+        margin-left: -180px;
+    }
+    .platform {
+        margin-left: -210px;
+    }
+    .genre{
+        margin-left: -210px;
+    }
+    .pub{
+        margin-left: -210px;
+        margin-bottom: 330px;
+        margin-top: -290px;
+
+    }
+    .imgs{
+        margin-left: -200px;
+        margin-top: 50px;
+        padding-left: -20px;
+    }
+    .dev{
+        margin-top: -40px;
+        margin-left: -210px;
+    }
+    .devs{
+        margin-top: -54px;
+    }
+    .gameurl{
+        margin-left:-670px;
+    }
+    .urlss {
+        margin-top: -90px;
+        margin-left:-180px;
+    }
+    .reled{
+        margin-left: -210px;
+    }
+
+}
